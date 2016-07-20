@@ -1,0 +1,40 @@
+{
+  "name": "react-todomvc-es6",
+  "version": "0.0.1",
+  "description": "ReactJS TodoMVC Example",
+  "main": "app.jsx",
+  "scripts": {
+    "start": "npm run build && npm run serve",
+    "build": "webpack",
+    "serve": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoGaNsF/react-todomvc-es6.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "TodoMVC"
+  ],
+  "author": "@LoGaNsF",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LoGaNsF/react-todomvc-es6/issues"
+  },
+  "homepage": "https://github.com/LoGaNsF/react-todomvc-es6#readme",
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "todomvc-app-css": "^2.0.6",
+    "todomvc-common": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
